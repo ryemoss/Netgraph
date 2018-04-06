@@ -1,5 +1,5 @@
 # Netgraph
-<h6>Network graph style javascript animation<h6>
+<h6>A purely canvas and js based network-graph style animation<h6>
 <h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
 
 <h4>Usage</h4>
