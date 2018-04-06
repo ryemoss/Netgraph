@@ -1,6 +1,6 @@
 # Netgraph-Animation
 <h6>A purely canvas and js based network-graph style animation<h6>
-<h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
+<h5>Codepen</h5> https://codepen.io/ryemoss/pen/WzaXmY
 
 ![preview](netgraphprev.png)
 
