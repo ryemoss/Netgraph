@@ -2,6 +2,8 @@
 <h6>A purely canvas and js based network-graph style animation<h6>
 <h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
 
+![preview](netgraphprev.png)
+
 <h4>Usage</h4>
 1. Add the `script.js' file to your project<br>
 2. Include the canvas of 'index.html'<br>
