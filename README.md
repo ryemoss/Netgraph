@@ -4,7 +4,7 @@
 
 <h4>Usage</h4>
 1. Add the `script.js' file to your project<br>
-2. Include the <canvas> of 'index.html'<br>
+2. Include the canvas of 'index.html'<br>
 
 <h4>Variables</h4>
 
