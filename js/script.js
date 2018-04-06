@@ -2,8 +2,14 @@ var i=0;
 var numps = 50;
 var parls = [];
 var maxd = 200;
+var xamp = 200;
+var yamp = 200;
+
 var c=document.getElementById("myCanvas");
 var ctx=c.getContext("2d");
+
+document.getElementById("myCanvas").width = window.innerWidth * .98;
+document.getElementById("myCanvas").height = window.innerHeight * .98;
 
 function startMove(){
   for (i=0; i<numps; i++) {
@@ -11,14 +17,15 @@ function startMove(){
   }
   var interval = window.setInterval(function(){mover();}, 15);
 }
+
 function mover(){
   i++;
   ctx.clearRect(0,0, c.width, c.height);
 
   for (p=0; p+1 <numps; p++)
   {
-    parls[p].xp = parls[p].origx + Math.sin(i*parls[p].xt+parls[p].origx)*200;
-    parls[p].yp = parls[p].origy + Math.sin(i*parls[p].yt+parls[p].origy)*200;
+    parls[p].xp = parls[p].origx + Math.sin(i*parls[p].xt+parls[p].origx)*xamp;
+    parls[p].yp = parls[p].origy + Math.sin(i*parls[p].yt+parls[p].origy)*yamp;
   }
   for (t=0; t+1 < numps; t++)
   {
@@ -54,3 +61,5 @@ function Particle()
   this.xt = Math.random()/300;
   this.yt = Math.random()/300;
 }
+
+startMove();
