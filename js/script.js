@@ -26,13 +26,10 @@ function mover(){
   {
     parls[p].xp = parls[p].origx + Math.sin(i*parls[p].xt+parls[p].origx)*xamp;
     parls[p].yp = parls[p].origy + Math.sin(i*parls[p].yt+parls[p].origy)*yamp;
-  }
-  for (t=0; t+1 < numps; t++)
-  {
     for (y=0; y+1 < numps; y++)
     {
-      if (distance(parls[t], parls[y]) < maxd)
-        connect(parls[t], parls[y], distance(parls[t], parls[y]));
+      if (distance(parls[p], parls[y]) < maxd)
+        connect(parls[p], parls[y], distance(parls[p], parls[y]));
     }
   }
 }
