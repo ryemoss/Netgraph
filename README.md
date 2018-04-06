@@ -15,3 +15,5 @@ yamp = point amplitude in y direction<br>
 <br>
 Particle.xt = timescale for moving in the x direction<br>
 Particle.yt = timescale for moving in the y direciton
+
+<h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
