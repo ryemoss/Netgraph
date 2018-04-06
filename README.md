@@ -1,10 +1,10 @@
 # Netgraph
 <h6>Network graph style javascript animation<h6>
+<h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
 
 <h4>Usage</h4>
 1. Add the `script.js' file to your project<br>
-2. Include the <body> of 'index.html'<br>
-3. Fix any references as necessary<br>
+2. Include the <canvas> of 'index.html'<br>
 
 <h4>Variables</h4>
 
@@ -15,5 +15,3 @@ yamp = point amplitude in y direction<br>
 <br>
 Particle.xt = timescale for moving in the x direction<br>
 Particle.yt = timescale for moving in the y direciton
-
-<h5>Codepen</h5> https://codepen.io/anon/pen/WzaXmY
